@@ -1,0 +1,22 @@
+package com.demo.array;
+
+public class MyArray {
+	private int [] arr;
+	private int count;
+	
+	public MyArray() {
+		arr=new int [10];
+		count =0;
+	}
+	public MyArray(int[] arr, int count) {
+		
+		this.arr = arr;
+		this.count = count;
+	}
+	
+	public int getCapacity() {
+		return arr.length;
+	}
+
+	
+}

@@ -1,0 +1,38 @@
+package com.demo.array;
+
+public class MyArray {
+	private int [] arr;
+	private int count;
+	//static array
+	public MyArray() {
+		arr=new int [10];
+		count =0;
+	}
+	
+	public MyArray(int[] arr, int count) {
+		
+		this.arr = arr;
+		this.count = count;
+	}
+	//dymanic array
+	public MyArray(int size) {
+		arr=new int[size];
+		count=0;
+	}
+	public int getCapacity() {
+		return arr.length;
+	}
+	public int size() {
+		return count;
+	}
+	//add element at the end of array
+	public boolean add(int n) {
+		if(arr.length>count) {
+			arr[count]=n;
+			count++;
+			return true;
+		}
+		return false;
+	}
+	
+}

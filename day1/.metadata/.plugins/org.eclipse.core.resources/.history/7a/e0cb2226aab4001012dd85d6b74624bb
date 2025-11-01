@@ -1,0 +1,13 @@
+package com.demo.test;
+
+import com.demo.array.MyArray;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyArray ob=new MyArray();
+		System.out.println(ob.getCapacity()+" is lenght of array");
+	}
+
+}

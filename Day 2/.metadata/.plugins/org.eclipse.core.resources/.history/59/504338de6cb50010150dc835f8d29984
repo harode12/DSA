@@ -1,0 +1,17 @@
+package com.demo.arrays;
+
+public class My2dArray {
+	private int [][] arr;
+
+	public My2dArray() {
+		arr=new int[3][3];
+	}
+
+	public My2dArray(int row,int column) {
+		arr=new int[row][column];
+	}
+	
+	
+	
+	
+}
