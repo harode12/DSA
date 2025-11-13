@@ -11,7 +11,7 @@ public class MyBinarySearchTree {
 			left=null;
 			right=null;
 		}
-    	
+
     }
 	public MyBinarySearchTree() {
 		root=null;
@@ -42,7 +42,7 @@ public class MyBinarySearchTree {
 		inorderTraversal(root);
 		System.out.println();
 	}
-
+						
 	private void inorderTraversal(Node root) {
 		if(root!=null) {
 			inorderTraversal(root.left);
